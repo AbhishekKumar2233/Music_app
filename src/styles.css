@@ -6,3 +6,19 @@
   font-family: sans-serif;
   text-align: center;
 }
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  height: auto;
+  padding: 5px 5px;
+  margin: 10px auto;
+}
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+}
