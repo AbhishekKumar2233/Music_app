@@ -40,7 +40,7 @@ export default function SliderItem() {
         </div>
         <div>
           <img
-            src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/620357bbe4ab4748300ef040/BANNER_1293525908732763.jpg"
+            src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/61fce6e678ddde4e91241de7/BANNER_871826411696910.jpeg"
             alt=""
           />
         </div>
@@ -52,7 +52,7 @@ export default function SliderItem() {
         </div>
         <div>
           <img
-            src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/620357bbe4ab4748300ef040/BANNER_1293525908732763.jpg"
+            src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/620376959cfcdb2059ac38a4/BANNER_1301024566606316.jpg"
             alt=""
           />
         </div>
