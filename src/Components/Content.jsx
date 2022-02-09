@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Data from "./Data";
+import "../styles.css";
 
 export default function Content() {
   return (

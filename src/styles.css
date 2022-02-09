@@ -21,3 +21,9 @@
   height: auto;
   border-radius: 30px;
 }
+.card:hover {
+}
+
+.slider {
+  width: 100%;
+}
