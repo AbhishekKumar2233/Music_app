@@ -11,7 +11,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      // style={{ ...style, display: "block", background: "green" }}
+      // style={{ ...style, display: "block", background: "rgba(0,0,0,1)" }}
       onClick={onClick}
     />
   );
@@ -31,9 +31,8 @@ export default function SliderItem() {
   };
   return (
     <div>
-      <h2> Single Item</h2>
       <Slider {...settings} className="slider">
-        <div>
+        <div id="div">
           <img
             src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/620357bbe4ab4748300ef040/BANNER_1293525908732763.jpg"
             alt=""
