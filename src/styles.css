@@ -12,13 +12,12 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 200px;
+  width: 170px;
   height: auto;
-  padding: 5px 5px;
   margin: 10px auto;
 }
 .card img {
-  width: 200px;
+  width: 100%;
   height: auto;
   border-radius: 30px;
 }

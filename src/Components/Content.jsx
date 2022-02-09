@@ -1,15 +1,13 @@
 import React from "react";
 import Card from "./Card";
+import Data from "./Data";
 
 export default function Content() {
   return (
     <div className="content">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {Data.map((card) => (
+        <Card name={card.name} img={card.img} />
+      ))}
     </div>
   );
 }
