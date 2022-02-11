@@ -6,8 +6,11 @@
   --secondary: #6c757d;
 }
 .App {
-  font-family: sans-serif;
+  width: 100%;
+  height: auto;
   background-color: black;
+  font-family: sans-serif;
+  color: #fff;
 }
 .content {
   width: 100%;

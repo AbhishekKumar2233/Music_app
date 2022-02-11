@@ -14,6 +14,7 @@ const CustomComponent = React.lazy(
 export default function Content() {
   return (
     <div className="content">
+      <br />
       <Suspense fallback={<div>Loading</div>}>
         {Data.map((card) => (
           <CustomComponent name={card.name} img={card.img} />
