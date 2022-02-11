@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function DataApi() {
   const [done, setDone] = useState(undefined);
@@ -21,7 +21,12 @@ export default function DataApi() {
     <div>
       <h1>hyy</h1>
       {console.log(done)}
-      <h1>{done.type}</h1>
+      {/* <h1>{done.type}</h1> */}
+      
+      <audio controls autoplay muted>
+        <source src={done.url} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
   );
 }
