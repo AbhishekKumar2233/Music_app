@@ -2,9 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
+:root {
+  --secondary: #6c757d;
+}
 .App {
   font-family: sans-serif;
-  text-align: center;
+  background-color: black;
 }
 .content {
   width: 100%;
