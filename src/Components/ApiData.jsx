@@ -24,7 +24,7 @@ export default function DataApi() {
       {/* <h1>{done.type}</h1> */}
       
       <audio controls autoplay muted>
-        <source src={done.url} type="audio/mpeg" />
+        <source src={done?.url} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
